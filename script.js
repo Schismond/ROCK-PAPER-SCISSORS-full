@@ -1,4 +1,3 @@
-
 const options = ["rock", "paper", "scissors"];
 let Pscore = document.getElementById('player');
 let Cscore = document.getElementById('computer');
