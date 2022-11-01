@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.choices>* {
+   font-size: 50px;
+   cursor: pointer;
+}
+#main-content{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.scores{
+    font-size: 2rem;
+}
+
+button{
+    background-color: brown;
+    border-radius: 15px;
+}
+
+#restart-game{
+    font-size: 1.5rem;
+    padding: 5px;
+}
